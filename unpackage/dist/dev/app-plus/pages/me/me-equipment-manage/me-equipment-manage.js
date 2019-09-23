@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"title { color: rgb(126,128,129); background-color: rgb(239,240,241); display: block; margin-left: 10px; margin-right: 10px; }\n",],undefined,{path:"./pages/me/me-equipment-manage/me-equipment-manage.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/me/me-equipment-manage/me-equipment-manage.wxml') } }));

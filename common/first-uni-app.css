@@ -1,0 +1,69 @@
+@font-face {
+	font-family: uniicons;
+	font-weight: normal;
+	font-style: normal;
+	src: url('./static/uni.ttf') format('truetype');
+}
+
+/*默认按钮*/
+.defult-button {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 60px;
+}
+
+/*获取验证码按钮*/
+.sms-button {
+	width: 130px;
+	height: 30px;
+	font-size: 15px;
+	line-height: 30px;
+	margin-right: 10px;
+}
+
+/*默认列表：左侧图片+标题*/
+
+/*默认空的列表*/
+.default-empty-cell {
+	height: 10px;
+	background-color: rgb(239,239,239);
+}
+
+/*默认列表的图片*/
+.default-cell-image {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+/*默认列表的右侧图片，通常为箭头*/
+.default-cell-image-right {
+	width: 8px;
+	height: 13px;
+	margin-right: 10px;
+}
+	
+/*默认列表的标题*/
+.default-cell-title {
+	width: 100%;
+	text-align: left;
+	align-content: center;
+	line-height: 52px;
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+.default-cell-title-right {
+	width: 20%;
+	text-align: right;
+	align-content: center;
+	line-height: 52px;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+/*默认列表的输入框*/
+.default-cell-input {
+	margin-left: 10px;
+	width: 75%;
+}

@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "设备管理",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "编辑",
+        "fontSize": "16",
+        "float": "16",
+        "color": "#FFFFFF"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

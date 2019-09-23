@@ -1,0 +1,1 @@
+<view class="root_page"><view class="header"></view><view class="uni-list"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="uni-list-cell" hover-class="uni-list-cell-hover"><image class="default-cell-image" src="../../static/logo.png"></image><text class="default-cell-title">{{item}}</text></view></block></view></view>

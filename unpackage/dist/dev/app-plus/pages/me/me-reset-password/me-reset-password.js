@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"rule-text { margin-left: 10px; margin-right: 10px; margin-top: 60px; display: block; color: rgb(173,174,175); font-size: 13px; }\n",],undefined,{path:"./pages/me/me-reset-password/me-reset-password.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/me/me-reset-password/me-reset-password.wxml') } }));

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/work/work",
+    "pages/tool/tool",
+    "pages/me/me",
+    "pages/me/setting/setting",
+    "pages/me/me-account/me-account",
+    "pages/me/me-reset-password/me-reset-password",
+    "pages/me/me-reset-gesture-password/me-reset-gesture-password",
+    "pages/me/me-equipment-manage/me-equipment-manage"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#c00",
+    "backgroundColor": "#c00"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/work/work",
+        "text": "工作",
+        "iconPath": "static/tabbar/icon_work01.png",
+        "selectedIconPath": "static/tabbar/icon_work02.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "工具",
+        "iconPath": "static/tabbar/icon_tool02.png",
+        "selectedIconPath": "static/tabbar/icon_tool01.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/tabbar/icon_my01.png",
+        "selectedIconPath": "static/tabbar/icon_my02.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "first-uni-app",
+  "compilerVersion": "2.3.0",
+  "usingComponents": {}
+}

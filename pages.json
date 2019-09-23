@@ -1,0 +1,100 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/work/work",
+			"style": {
+				"navigationBarTitleText": "工作"
+			}
+		},
+		{
+			"path":"pages/tool/tool",
+			"style": {
+				"navigationBarTitleText":"工具"
+			}
+		},
+		{
+			"path":"pages/me/me",
+			"style": {
+				"navigationBarTitleText":"我的"
+			}
+		},
+		//注：使用navigator进行跳转的页面，其路径必须在pages.json中配置
+		{
+			"path":"pages/me/setting/setting",
+			"style": {
+				"navigationBarTitleText":"设置"
+			}
+		},
+		{
+			"path":"pages/me/me-account/me-account",
+			"style": {
+				"navigationBarTitleText":"我的账号"
+			}
+		},
+		{
+			"path":"pages/me/me-reset-password/me-reset-password",
+			"style": {
+				"navigationBarTitleText":"修改密码"
+			}
+		},
+		{
+			"path":"pages/me/me-reset-gesture-password/me-reset-gesture-password",
+			"style": {
+				"navigationBarTitleText":"密码修改"
+			}
+		},
+		{
+			"path":"pages/me/me-equipment-manage/me-equipment-manage",
+			"style": {
+				"navigationBarTitleText":"设备管理",
+				//app-plus,可以自定义导航区域
+				"app-plus": {
+					"bounce":"none",
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "编辑",
+								"fontSize":"16",
+								"float":"16",
+								"color":"#FFFFFF"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#c00",
+		"backgroundColor": "#c00"
+	},
+	"tabBar": {
+		"color":"#bfbfbf",//字体颜色
+		"selectedColor":"#515151",//选中时候字体得颜色
+		"borderStyle":"black",//边框的颜色
+		"backgroundColor":"#FFFFFF",//导航栏背景颜色
+		"list":[
+			//导航栏数组
+			{
+				"pagePath":"pages/work/work",//对应的页面
+				"text":"工作",//名称
+				"iconPath":"static/tabbar/icon_work01.png",//图标
+				"selectedIconPath":"static/tabbar/icon_work02.png"//选中时候的图标
+			},
+			{
+				"pagePath":"pages/tool/tool",
+				"text":"工具",
+				"iconPath":"static/tabbar/icon_tool02.png",
+				"selectedIconPath":"static/tabbar/icon_tool01.png"
+			},
+			{
+				"pagePath":"pages/me/me",
+				"text":"我的",
+				"iconPath":"static/tabbar/icon_my01.png",
+				"selectedIconPath":"static/tabbar/icon_my02.png"
+			}
+		]
+	}
+}
